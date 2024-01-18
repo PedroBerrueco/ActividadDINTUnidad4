@@ -16,7 +16,7 @@ struct DetailView: View {
                 Image(uiImage: UIImage(named: film.image)!)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(maxHeight: 200) // Ajusta la altura máxima según tus necesidades
+                    //.frame(maxHeight: 200) // Ajusta la altura máxima según tus necesidades
                     .padding(2)
             }
             VStack(alignment: .leading) {
